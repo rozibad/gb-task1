@@ -251,3 +251,71 @@ body {
     font-size: 14px;
     line-height: 18px;
 }
+
+.buy {
+    padding: 50px;
+}
+
+.buy_title {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #445162;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.buy_prices {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.buy_prices_item {
+    flex: 0 0 auto;
+    width: 300px;
+    background-color: #445162;
+    border-radius: 5px;
+    margin: 0 22px 0;
+    box-sizing: border-box;
+    border: 2px solid #445162;
+}
+
+.buy_prices_name {
+    text-align: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    padding: 15px 15px 19px;
+}
+
+.buy_prices_price {
+    text-align: center;
+    color: #445162;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    background-color: #fff;
+    padding: 16px;
+}
+
+.buy_prices_list {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 20px;
+    list-style-position: inside;
+}
+
+.buy_prices_list > li {
+    margin: 0;
+    padding: 0;
+}
+
+.buy_prices_list > li + li {
+    margin-top: 10px;
+}
+
+.buy_prices_button {
+    
+}
