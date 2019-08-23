@@ -1,0 +1,253 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    max-width: 1280px;
+    min-width: 980px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.product_overview {
+    background-color: #445162;
+    padding: 50px;
+    display: flex;
+}
+
+.product_overview_info {
+    flex: 1 1 auto;
+}
+
+.product_overview_title {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 60px;
+    margin: 0;
+}
+
+.product_overview_enum {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 25px;
+    list-style-type: none;
+    margin: 26px 0 0;
+    padding: 0;
+}
+
+.product_overview_enum > li {
+    margin: 12px 0 0;
+    padding: 0 0 0 35px;
+    background-image: url(../img/ok.png);
+    background-repeat: no-repeat;
+}
+
+.product_overview_img {
+    background-color: #fff;
+    flex: 0 0 auto;
+    margin-left: 50px;
+}
+
+.about_product {
+    display: flex;
+    padding: 50px;
+}
+
+.about_product_info {
+    flex: 1 1 auto;
+}
+
+.about_product_title {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #445162;
+    font-size: 30px;
+    margin: 0;
+}
+
+.about_product p {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.about_product_video {
+    flex: 0 0 auto;
+    margin-left: 50px;
+}
+
+.pros_cons {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.pros_cons_title {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #445162;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.pros_cons_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.pros_cons_list > li {
+    flex: 0 0 auto;
+    margin: 30px 0 0;
+    padding: 0 0 0 40px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    background-repeat: no-repeat;
+    min-height: 32px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.pros_cons_pro {
+    background-image: url(../img/pro.png);
+}
+
+.pros_cons_con {
+    background-image: url(../img/con.png);
+}
+
+.scrinshots {
+    padding: 50px;
+}
+
+.scrinshots_title {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #445162;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.scrinshots_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scrinshots_item {
+    display: flex;
+    flex: 0 0 auto;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 30px 0 0;
+}
+
+.scrinshots_item > img {
+    flex: 0 0 auto;
+    background-color: #445162;
+    display: block;
+    margin-right: 15px;
+}
+
+.scrinshots_item > figcaption {
+    flex: 1 1 auto;
+}
+
+.scrinshots_item_title {
+    font-family: Arial, sans-serif;
+    color: #445162;
+    font-size: 24px;
+    margin: 0;
+}
+
+.scrinshots_item p {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.reviews {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.reviews_title {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #445162;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.reviews_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reviews_item {
+    display: flex;
+    flex: 0 0 auto;
+    width: calc(50% - 15px);
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+.reviews_item > img {
+    flex: 0 0 auto;
+    display: block;
+    background-color: #445161;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.reviews_item_info {
+    flex: 1 1 auto;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    padding: 15px;
+    position: relative;
+}
+
+.reviews_item_info:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ebebeb;
+    left: -10px;
+    top: 30px;
+    transform: rotate(45deg);
+}
+
+.reviews_item p {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.reviews_item p:first-child {
+    margin-top: 0;
+}
+
+.reviews_item_author {
+    font-family: Arial, sans-serif;
+    color: #989898;
+    font-size: 14px;
+    line-height: 18px;
+}
