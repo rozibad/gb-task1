@@ -317,5 +317,180 @@ body {
 }
 
 .buy_prices_button {
-    
+    display: block;
+    padding: 9px;
+    margin: 0 19px 19px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #445161;
+    text-decoration: none;
+}
+
+.buy_prices_button:hover {
+    color: blueviolet;
+}
+
+.buy_prices_button:active {
+    color: darkcyan;
+}
+
+.contacts {
+    background-color: #445161;
+    padding: 50px;
+}
+
+.contacts_title {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.contacts_layout {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts_form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_form > *:not(:first-child) {
+    margin-top: 22px;
+}
+
+.contacts_form_text {
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #445162;
+    padding: 14px 10px;
+}
+
+.contacts_form_text > span {
+    flex: 0 0 auto;
+}
+
+.contacts_form_text > input {
+    flex: 1 1 auto;
+    border: 0;
+    outline: none;
+    padding: 0 0 0 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: blueviolet;
+}
+
+.contacts_form_longtext {
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #445162;
+    padding: 14px 10px;
+    flex-direction: column;
+    min-height: 170px;
+    box-sizing: border-box;
+}
+
+.contacts_form_longtext > span {
+    flex: 0 0 auto;
+}
+
+.contacts_form_longtext > textarea {
+    flex: 1 1 auto;
+    border: 0;
+    outline: none;
+    padding: 10px 0 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: blueviolet;
+    resize: none;
+}
+
+.contacts_form_send {
+    display: block;
+    padding: 9px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #445161;
+    width: 100%;
+    max-width: 140px;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.contacts_form_send:hover {
+    color: blueviolet;
+}
+
+.contacts_form_send:active {
+    color: darkcyan;
+}
+
+.contacts_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.contacts_info > *:not(:first-child) {
+    margin-top: 22px;
+}
+
+.contacts_info_skype,
+.contacts_info_icq,
+.contacts_info_email,
+.contacts_info_phone {
+    padding-left: 30px;
+    line-height: 30px;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.contacts_info_skype {
+    background-image: url(../img/skype-icon.png);
+}
+
+.contacts_info_icq {
+    background-image: url(../img/icq-icon.png);
+}
+
+.contacts_info_email {
+    background-image: url(../img/email-icon.png);
+}
+
+.contacts_info_phone {
+    background-image: url(../img/phone-icon.png);
+}
+
+.copyright {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #445161;
+    padding: 10px 0 5px;
+    text-align: center;
 }
