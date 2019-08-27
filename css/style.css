@@ -246,6 +246,7 @@ body {
 }
 
 .reviews_item_author {
+    display: block;
     font-family: Arial, sans-serif;
     color: #989898;
     font-size: 14px;
@@ -287,9 +288,12 @@ body {
     font-family: Arial, sans-serif;
     font-size: 24px;
     padding: 15px 15px 19px;
+    margin: 0;
+    font-weight: normal;
 }
 
 .buy_prices_price {
+    display: block;
     text-align: center;
     color: #445162;
     font-family: Arial, sans-serif;
@@ -334,10 +338,12 @@ body {
 
 .buy_prices_button:hover {
     color: blueviolet;
+    background-color: bisque;
 }
 
 .buy_prices_button:active {
     color: darkcyan;
+    background-color: azure;
 }
 
 .contacts {
@@ -437,14 +443,17 @@ body {
     max-width: 140px;
     align-self: center;
     box-sizing: border-box;
+    outline: none;
 }
 
 .contacts_form_send:hover {
     color: blueviolet;
+    background-color: bisque;
 }
 
 .contacts_form_send:active {
     color: darkcyan;
+    background-color: azure;
 }
 
 .contacts_info {
@@ -484,6 +493,43 @@ body {
 
 .contacts_info_phone {
     background-image: url(../img/phone-icon.png);
+}
+
+.social_icons {
+    margin-top: 30px;
+    display: flex;
+}
+
+.social_icons > a {
+    display: inline-block;
+    background-image: url(../img/social-icons.png);
+    height: 44px;
+    width: 44px;
+    background-repeat: no-repeat;
+}
+
+.social_icons > a:not(:first-child) {
+    margin-left: 8px;
+}
+
+.social_icons_twitter {
+    background-position: 0px 50%;
+}
+
+.social_icons_facebook {
+    background-position: -49px 50%;
+}
+
+.social_icons_linkedin {
+    background-position: -98px 50%;
+}
+
+.social_icons_google {
+    background-position: -148px 50%;
+}
+
+.social_icons_youtube {
+    background-position: -197px 50%;
 }
 
 .copyright {
